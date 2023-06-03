@@ -16,7 +16,6 @@ df = load_data(st.secrets["public_gsheets_url"])
 for row in df.itertuples():
     st.write(f"{row.name} has a :{row.pet}:")
 
-
 st.title('Pickleball Tournament Bracket Maker')
 
 st.header('Enter teams here')
