@@ -20,4 +20,3 @@ st.title('Pickleball Tournament Bracket Maker')
 
 st.header('Enter teams here')
 st.body('Here are the teams for tonights match')
-st.datadframe(playing_pairs)
