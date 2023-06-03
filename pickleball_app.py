@@ -19,7 +19,5 @@ for row in df.itertuples():
 st.title('Pickleball Tournament Bracket Maker')
 
 st.header('Enter teams here')
-playing_pairs = streamlit.text_input('Enter player pairs. Seperate teams with a ","')
-
 st.body('Here are the teams for tonights match')
 st.datadframe(playing_pairs)
