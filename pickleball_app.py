@@ -21,6 +21,6 @@ st.title('Pickleball Tournament Bracket Maker')
 playdate = st.text_input('Enter the date of the game (X/X)')
 
 st.header("Let's enter the teams playing tonight")
-st.text_input('Enter teams here. Press enter after each pair'
+st.text_input('Enter teams here. Press enter after each pair')
 
-st.text('Here are the teams for tonights match')
+st.text("Here are the teams for tonights match")
