@@ -19,4 +19,4 @@ for row in df.itertuples():
 st.title('Pickleball Tournament Bracket Maker')
 
 st.header('Enter teams here')
-st.body('Here are the teams for tonights match')
+st.text('Here are the teams for tonights match')
