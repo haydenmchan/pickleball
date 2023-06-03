@@ -1,6 +1,7 @@
 import streamlit
 import pandas
 import requests
+pip install gspread
 import gspread
 
 streamlit.title('Pickleball Tournament Bracket Maker')
