@@ -4,7 +4,7 @@ import requests
 from google.oauth2 import service_account
 from gsheetsdb import connect
 # requirements.txt
-gsheetsdb==0.1.13.1
+gsheetsdb==1.13.1
 
 # Create a connection object.
 credentials = service_account.Credentials.from_service_account_info(
