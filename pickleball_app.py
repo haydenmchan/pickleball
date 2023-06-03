@@ -14,7 +14,10 @@ df = load_data(st.secrets["public_gsheets_url"])
 
 st.title('Pickleball Tournament Bracket Maker')
 
-playdate = st.text_input('Enter the date of the game (X/X)')
+##playdate = st.text_input('Enter the date of the game (X/X)'
+
+spreadsheet = client.open("Embarkville Pickleball")
+worksheet = spreadsheet.worksheet("6/2")  # Replace "Sheet1" with the name of your desired worksheet
 
 st.header("Let's enter the teams playing tonight")
 st.text_input('Enter teams here. Press enter after each pair')
