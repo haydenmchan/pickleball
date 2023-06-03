@@ -1,8 +1,8 @@
 import streamlit
 import pandas
 import requests
-pip install gspread
-import gspread
+from google.oauth2 import service_account
+from gsheetsdb import connect
 
 streamlit.title('Pickleball Tournament Bracket Maker')
 
